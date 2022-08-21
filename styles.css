@@ -1,0 +1,99 @@
+body{
+  background-color: #F6F6F6;
+  border-radius: 50px;
+}
+
+.heading{
+  text-align: center;
+  background-color: #C1EFFF;
+  font-family: DynaPuff;
+  font-weight: bold;
+  font-size: 20px;
+  color: #A10035;
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.container {
+  position: relative;
+  width:  1000px;
+  height: 600px;
+  background-color: #C1EFFF;
+  border-radius: 15px;
+  border: 1px solid red;
+  margin: auto;
+}
+ 
+.box{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+ /* Absolute Position to the parent Container */
+ #box-1 {
+  position: absolute;
+  left: 800px;
+  background: yellow;
+  margin-top:2px;
+}
+#box-2 {
+  position: absolute;
+  left:800px;
+  top:400px;
+  background: green;
+}
+
+#box-3 {
+  position: absolute;
+  background: blue;
+  margin-top: 1px;
+}
+
+#box-4 {
+  position: absolute;
+  top:400px;
+  background: purple;
+}
+
+.btn{
+  background-color: #003865; 
+  margin-left: 800px; 
+  border-radius: 30px;
+  border: 1px inset gray;
+  width: 200px;
+  height: 40px;
+  font-family: DynaPuff;
+  font-weight: bold;
+  font-size: 18px; 
+  color: #fff;
+  padding: 5px;
+}
+
+.btn:hover{
+  color: #A10035;
+  background-color: #D3CEDF; 
+  transition: 0.8s ease;
+  cursor:pointer;
+}
+
+.para{
+  text-align: center;
+  background-color: #96E5D1;
+  font-family: DynaPuff;
+  font-weight: bold;
+  font-size: 15px;
+  color: #820000;
+  width: 50%;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-bottom:1px; 
+  margin-left: 1px;
+  padding: 5px;
+  
+}
+
